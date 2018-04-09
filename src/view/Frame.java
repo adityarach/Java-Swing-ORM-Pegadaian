@@ -232,12 +232,12 @@ public class Frame extends javax.swing.JFrame {
                 InputStream jReport = this.getClass().getClassLoader().getResourceAsStream(reportFile.getPath());
 //                JasperReport jReport = (JasperReport) JRLoader.loadObject(reportFile.getPath());
                 JasperPrint jPrint = JasperFillManager.fillReport(jReport, parameter, conn);
-                JasperViewer.viewReport(jPrint, true);
+                JasperViewer.viewReport(jPrint, false);
                 JasperViewer.setDefaultLookAndFeelDecorated(true);
                 JasperViewer viewer = new JasperViewer(jPrint);
-                r.add(viewer);
-                r.setVisible(true);
-                DesktopPane.add(viewer);
+//                r.add(viewer);
+//                r.setVisible(true);
+//                DesktopPane.add(viewer);
             } catch (Exception e) {
                 JOptionPane.showMessageDialog(null, "Laporan Tidak Dapat Dicetak!\n" + e.getMessage()
                 ,"Cetak Laporan", JOptionPane.ERROR_MESSAGE);

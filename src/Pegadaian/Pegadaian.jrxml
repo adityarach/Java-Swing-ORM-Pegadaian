@@ -44,7 +44,7 @@ FROM
 		<band splitType="Stretch"/>
 	</background>
 	<title>
-		<band height="100" splitType="Stretch">
+		<band height="138" splitType="Stretch">
 			<staticText>
 				<reportElement x="254" y="24" width="439" height="54" uuid="b8aee400-a830-4fb1-b1a0-6e512a0934a2"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
@@ -53,8 +53,8 @@ FROM
 				<text><![CDATA[LAPORAN ANGSURAN PEGADAIAN]]></text>
 			</staticText>
 			<image>
-				<reportElement x="21" y="0" width="124" height="100" uuid="4e87ec3a-13ea-4ac8-b0ce-471d1d0edd74"/>
-				<imageExpression><![CDATA["C:\\Users\\Evi\\Pictures\\unnamed.png"]]></imageExpression>
+				<reportElement x="75" y="24" width="132" height="109" uuid="ec047d69-6acf-4f87-a5f6-f1d126a259bd"/>
+				<imageExpression><![CDATA["J:\\Kerja\\Pegadaian\\logo bergerak.gif"]]></imageExpression>
 			</image>
 		</band>
 	</title>
